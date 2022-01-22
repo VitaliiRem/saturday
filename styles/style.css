@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 200px;
+    align-items: center;
+    background-color: yellowgreen;
+}
+
+.wrapper ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.wrapper ul li {
+    margin: 0 30px;
+}
+
+.logo__container {
+    width: 50px;
+    height: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.banner-section {
+    margin: auto 200px;
+    height: 600px;
+    background-image: url(../img/banner.jpeg);
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+}
